@@ -40,12 +40,12 @@ public class Task1_4 {
         }
 
         // ③ 名前のみ正しい場合、「 パスワードに誤りがあります。 」と出力してください。
-        if (name.equals(NAME) && !(pass.equals(PASS))){
+        if (name.equals(NAME)){
           System.out.println(CONST_MSG_ERROR_PASS);
         }
 
         // ④ パスワードのみ正しい場合、「 名前に誤りがあります。 」と出力してください。
-        if(!(name.equals(NAME)) && pass.equals(PASS)){
+        if(pass.equals(PASS)){
           System.out.println(CONST_MSG_ERROR_NAME);
         }
 
