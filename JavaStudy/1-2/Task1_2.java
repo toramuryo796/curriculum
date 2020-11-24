@@ -26,7 +26,7 @@ public class Task1_2 {
         String strArray[] = {"りんご", "もも", "ぶどう"};
 
         // ④ ③で作成した配列の2番目の要素を出力しなさい。
-        System.out.println(strArray[2]);
+        System.out.println(strArray[1]);                                       //修正箇所(配列の要素は0から始まる)
 
         /* ⑤下記の処理について、何をしているのかコメントを記入してください。
          *  [[10, 20, 30, 40, 50]を初期値とするint型の配列 intArrayを作成している]
