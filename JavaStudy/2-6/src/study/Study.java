@@ -29,13 +29,14 @@ public class Study {
         // - また、うるう年の場合は設定内容が正しくとも日付がズレて表示される可能性があります。
         System.out.println("---問3---");
         System.out.println(calendar.get(Calendar.YEAR));
-        System.out.println(calendar.get(Calendar.MONTH));
+        System.out.println(calendar.get(Calendar.MONTH) + 1);
         System.out.println(calendar.get(Calendar.DATE));
         
         calendar.add(Calendar.YEAR, 1);
         calendar.add(Calendar.MONTH, 2);
         calendar.add(Calendar.DATE, 15);
         
+        System.out.println("---1年２ヶ月15日後---");
         System.out.println(calendar.get(Calendar.YEAR));
         System.out.println(calendar.get(Calendar.MONTH));
         System.out.println(calendar.get(Calendar.DATE));
