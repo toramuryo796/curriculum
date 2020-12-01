@@ -15,10 +15,7 @@ public class Study {
      *     また、課題の画像と同じ表示になるように
      *     printFruitsの引数にはFruitsConstantsから呼び出した値を設定してください。
      */
-	public static void main(String[] args) {
-//		Fruits fruits = new Fruits();
-//		FruitsConstants fruitsConstants = new FruitsConstants();
-		
+	public static void main(String[] args) {		
 		Fruits.printFruits(FruitsConstants.FRUITS_LEMON_04, FruitsConstants.FRUITS_COUNT_20);
 	}
 }
