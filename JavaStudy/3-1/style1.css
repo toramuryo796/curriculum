@@ -1,0 +1,34 @@
+#wrapp{
+  width: 400px;
+}
+
+.clearfix::after{
+  content: '';
+  display: block;
+  clear: both;
+}
+
+#header{
+  height: 100px;
+  background-color: #141f40;
+}
+
+.left-side{
+  width: 150px;
+  height: 250px;
+  float: left;
+  background-color: #80bfa8;
+}
+
+.right-side{
+  float: right;
+  height: 250px;
+  width: 250px;
+  background-color: #8c2727;
+}
+
+
+#footer{
+  height: 100px;
+  background-color: #d98d30;
+}

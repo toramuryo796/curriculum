@@ -1,0 +1,31 @@
+@media(max-width: 767px){
+  #header{
+    width: 250px;
+  }
+  .right-side{
+    width:100px;
+    float: left;
+  }
+  
+  #footer{
+    width: 250px;
+  }
+}
+
+@media(max-width:479px){
+  #header{
+    width: 150px;
+  }
+
+  .right-side{
+    width: 150px;
+    display: block;
+    clear: both;
+    float: left;
+  }
+
+  #footer{
+    width: 150px;
+  }
+
+}
