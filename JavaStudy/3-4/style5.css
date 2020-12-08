@@ -1,0 +1,43 @@
+.origin{
+  width: 540px;
+  height: 150px;
+}
+
+#upper{
+  background-color: #FFFF00;
+}
+
+#up-middle, #low-middle{
+  height: 150px;
+  width: 540px;
+  display: flex;
+}
+
+.up-mid-left{
+  background-color: #33FFFF;
+  width: 200px;
+}
+
+.up-mid-mid{
+  background-color: #FF0000;
+  width: 170px;
+
+}
+.up-mid-right{
+  background-color: #0000ff;
+  width: 170px;
+}
+
+.low-mid-left{
+  background-color: #00ff00;
+  width: 450px;
+}
+
+.low-mid-right{
+  background-color: #ff00ff;
+  width: 90px;
+}
+
+#bottom{
+  background-color: #33FFFF;
+}
