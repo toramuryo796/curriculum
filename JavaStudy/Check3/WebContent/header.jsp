@@ -13,9 +13,9 @@
 		<label class="title">login</label>
 		<label class="date">
 			<%
-				Date date = new Date();
+				Calendar date = Calendar.getInstance();
 				SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
-				String now = sdf.format(date);
+				String now = sdf.format(date.getTime());
 				out.print(now);
 			%>
 		</label>
