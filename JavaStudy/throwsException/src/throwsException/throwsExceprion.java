@@ -16,7 +16,7 @@ public class throwsExceprion {
 		}catch(IOException e){
 			System.out.print("ファイル読み込み中にエラーが発生しました");
 		}finally {
-			if(Objects.nonNUll(fr)) {
+			if(Objects.nonNull(fr)) {
 				try {
 					fr.close();
 				}catch(IOException e) {
