@@ -99,7 +99,7 @@ public class ExException {
 		}
 		//①Nullにするメソッド
 		private static void nullException() throws NullPointerException {
-			CONST_EXCEPTION_TRIGER_NULL = null;
+			CONST_EXCEPTION_TRIGER_NULL = Null;
 			System.out.println(CONST_MSG_NULLPO);
 		}
 
