@@ -61,11 +61,7 @@ public class ExException {
 					  // 問①: 強制的に「NullPointerException」を発生させるメソッドを作成し、呼び出しなさい。
 					  // 問①は最下部にもあります。
 					  // ルール: ここへ作成したメソッドを呼び出す
-						 try {
-							 parameter = nullPo();
-						 } catch(NullPointerException e) {
-							 System.out.println(CONST_MSG_NULLPO);
-						 }
+						 nullPo();
 					 break;
 
 					 case CONST_EXCEPTION_TRIGER_ARRAY_OUT_OF_BOUNDS:
@@ -117,8 +113,8 @@ public class ExException {
 	 * ルール2: 例外発生時に設定するメッセージは、定義済みの定数から適当なものを指定してください。
 	 */
 	  // ここへ記述
-	 private static int nullPo() throws NullPointerException{
-		 return (Integer) null;
+	 private static int nullPo(){
+		 throw new NullPointerException(CONST_MSG_NULLPO);
 	 }
 
 	 /**
