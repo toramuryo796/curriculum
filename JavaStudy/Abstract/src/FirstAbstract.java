@@ -11,4 +11,6 @@ public abstract class FirstAbstract {
 	protected String getName() {
 		return name;
 	}
+
 }
+

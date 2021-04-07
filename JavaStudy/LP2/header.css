@@ -1,0 +1,377 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 100;
+}
+
+ul{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+p{
+  margin: 0;
+}
+
+/* ヘッダーロゴ */
+.logo{
+  height: 44px;
+  width: 299px;
+}
+
+.header-left{
+  display: flex;
+  align-items: center;
+}
+
+/* ヘッダー右側 */
+.header-right{
+  display: flex;
+  align-items: center;
+}
+
+/* ヘッダーリンクリスト */
+.header-nav ul{
+  display: flex;
+  margin-right: 20px;
+}
+
+.header-nav ul li + li{
+  margin-left: 20px;
+}
+
+.header-list a{
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.header-list a:hover{
+  color: gray;
+}
+
+/* ヘッダー電話 */
+.tel-title{
+  background-color: #ffff33;
+  margin:0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  height: 20px;
+}
+
+.tel-num-lbox{
+  background-color: #ffff99;
+  padding: 10px 5px;
+  height: 50px;
+}
+
+.tel-num-box{
+  display: flex;
+}
+
+.tel-num{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.header-img-box{
+  display: flex;
+  align-items: center;
+}
+
+.header-img-box{
+  width: 50px;
+}
+
+.header-img{
+  height: 30px;
+}
+
+/* ヘッダー電話受付 */
+.tel-time{
+  font-size: 12px;
+  text-align: center;
+}
+
+/* メール */
+.mail-title{
+  background-color:#ffd700;
+  margin:0;
+  text-align: center;
+  font-weight: bold;
+  font-size: 14px;
+  height: 20px;
+}
+
+.mail-form-box{
+  display: flex;
+  background-color: #ffe033;
+  height: 70px;
+  align-items: center;  
+}
+/* セミヘッダー */
+.semi-header{
+  background-color: rgba(0,23,153,0.8);
+  position: fixed;
+  margin-top: 90px;
+  width: 100%;
+  z-index: 100;
+}
+
+.semi-header-list-box{
+  width: 50%;
+  margin: 0 auto;
+  height: 60px;
+}
+
+.semi-header-list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.semi-header-list li{
+  color: white;
+  padding: 16px 0;
+}
+
+.semi-header-list li:hover{
+  border-bottom: solid 3px white;
+  height: 16px;
+  padding: 12px 0;
+}
+
+/* トップ労災 */
+.main-rousai{
+  width: 100%;
+  height: auto;
+  padding-top: 166px;
+  z-index: 1;
+}
+
+.rousai-position{
+  position: relative;
+}
+
+.hero-bg{
+  width: 100%;
+}
+
+.hero-circle{
+  float: left;
+  height: 40%;
+  width: 40%;
+  position: relative;
+  padding-top: 168px;
+  position: absolute;
+  top: 5%;
+  left: 5%;
+}
+
+/* 労災テキスト */
+.rousai-left{
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+.rousai-title{
+  background-color: white;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;
+  width: 300px;
+}
+
+.rousai-main-text, .dot{
+  color: white;
+  font-size: xx-large;
+}
+
+.dot{
+  margin-bottom: 0;
+  height: 25px;
+}
+
+.rousai-attention{
+  color: white;
+  margin-top: 40px;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.rousai-support{
+  color: white;
+  font-size: 16px; 
+}
+
+/* サリュの強み */
+.strong-left{
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+
+.strong-title{
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.strong-text{
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.strong-point{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px 0;
+}
+
+.sec1-img1{
+  height: 300px;
+  width: 500px;
+}
+
+.red{
+  color: red;
+}
+
+.strong-link{
+  display: flex;
+  position: absolute;
+  right: 130px;
+}
+
+.arrow-down{
+  height: 20px;
+  width: 20px;
+}
+
+.strong-cost{
+  color: silver;
+}
+
+.strong-cost-link{
+  border-bottom: solid 1px silver; 
+  position: relative;
+}
+
+.strong-cost-link{
+  color: silver;
+}
+
+
+/* ここから中郡さん */
+.sample {
+
+}
+.case1 {
+	border: solid 5px navy;
+	border-radius: 10px;
+	border-color: navy;
+}
+.case1-1{
+	border-top: 2px dotted black;
+}
+.case2 {
+	border: solid 5px navy;
+	border-radius: 10px;
+	border-color: navy;
+}
+.case2-1{
+	border-top: 2px dotted black;
+}
+.case3 {
+	border: solid 5px navy;
+	border-radius: 10px;
+	border-color: navy;
+}
+.case3-1{
+	border-top: 2px dotted black;
+}
+.case4 {
+	border: solid 5px navy;
+	border-radius: 10px;
+	border-color: navy;
+}
+.case4-1{
+	border-top: 2px dotted black;
+}
+.case5 {
+	border: solid 5px navy;
+	border-radius: 10px;
+	border-color: navy;
+}
+.case5-1{
+	border-top: 2px dotted black;
+}
+.hiyou {
+
+}
+.hiyou1 {
+
+}
+.hiyou2 {
+
+}
+.gray {
+
+}
+.blue {
+
+	}
+.blue1 {
+
+}
+.blue2 {
+
+}
+.blue3 {
+
+}
+.blue4 {
+
+}
+.blue5 {
+
+}
+.step {
+
+}
+.step1 {
+
+}
+.step2 {
+
+}
+.step3 {
+
+}
+.step4 {
+
+}
+.tel {
+
+}
+.tel1 {
+	border-radius: 10px;
+	border-color: navy;
+}
+.mail {
+	border-radius: 10px;
+	border-color: navy;
+}
