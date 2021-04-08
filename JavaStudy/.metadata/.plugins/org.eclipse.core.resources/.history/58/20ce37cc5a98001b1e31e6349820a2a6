@@ -1,0 +1,54 @@
+package com.example.security.springsecurity;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Bean;
+import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.security.crypto.password.PasswordEncoder;
+
+import com.example.security.springsecurity.account.AccountService;
+
+@EnableWebSecurity
+public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+
+	@Autowired
+	private AccountService userService;
+
+	@Override
+	//このメソッドをオーバーライドすることで、認可の設定やログイン/ログアウトに関する設定ができる.
+	protected void configure(HttpSecurity http) throws Exception {
+		http
+		.authorizeRequests()	//許可に関する設定
+		.antMatchers("/login", "/login-error").permitAll()	//"/login"と"/login-error"は誰でもアクセス可
+		.antMatchers("/**").hasRole("USER")	//↑以外で始まるパスはUSER権限でないと入れない
+		.and()
+		.formLogin()	//ログインフォームの設定情報を持つFormLoginConfigureというクラスのインスタンスを返している
+		.loginPage("/login")	// ログイン画面に遷移させるパス(ログイン認証が必要なパスを指定してかつログインされていないとこのパスに遷移される)
+		.failureUrl("/login-error");	//ログイン失敗に遷移させるパス
+	}
+
+
+	//変更点 ロード時に、「admin」ユーザを登録する。
+	@Override
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+		auth
+		.userDetailsService(userService)	//ユーザー情報の検索を実行する
+		.passwordEncoder(passwordEncoder());	//パスワードをハッシュ化する
+
+		if (userService.findAllList().isEmpty()) {
+			userService.registerAdmin("admin", "secret", "admin@localhost");
+			userService.registerManager("manager", "secret", "manager@localhost");
+			userService.registerUser("user", "secret", "user@localhost");
+		}
+	}
+	//変更点 PasswordEncoder(BCryptPasswordEncoder)メソッド
+	@Bean
+	public PasswordEncoder passwordEncoder() {
+		// bcryptアルゴリズムでハッシュ化する実装を返す
+		return new BCryptPasswordEncoder();
+	}
+
+}

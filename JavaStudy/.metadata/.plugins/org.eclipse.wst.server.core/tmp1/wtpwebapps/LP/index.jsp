@@ -1,0 +1,180 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./css/lp.css">
+</head>
+  <body>
+    <div class="header">
+      <div class="header-left">
+        <div class="logo">
+          <img src="img/logo.png" class="logo">
+        </div>
+      </div>
+      <div class="header-right">
+        <div class="header-nav">
+          <ul>
+            <li class="header-list"><a href="#">ご相談の流れ</a></li>
+            <li class="header-list"><a href="#">弁護士費用</a></li>
+            <li class="header-list"><a href="#">弁護士紹介</a></li>
+            <li class="header-list"><a href="#">アクセス</a></li>
+          </ul>
+        </div>
+        <div class="tel">
+          <p class="tel-title">電話で無料相談お申し込み</p>
+          <div class="tel-num-lbox">
+            <div class="tel-num-box">
+              <div class="header-img-box">
+                <img src="img/hd-cv-tel-ic.png" class="header-img">
+              </div>
+              <div class="tel-index">
+                <p class="tel-num">0120-181-398</p>
+              </div>
+            </div>
+            <p class="tel-time">受付時間:平日 10:00-18:00</p>
+          </div>
+        </div>
+        <div class="mail-form">
+          <p class="mail-title">メールで無料相談お申し込み</p>
+          <div class="mail-form-box">
+            <img src="img/hd-cv-mail-ic.png" class="header-img">
+            <p class="mial-form-index">お申し込みフォーム</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="semi-header">
+      <div class="semi-header-list-box">
+        <ul class="semi-header-list">
+          <li>残業代請求</li>
+          <li>不当解雇</li>
+          <li>退職代行サービス</li>
+          <li>労働災害</li>
+          <li>待遇格差</li>
+          <li>最新解決事例</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="main-rousai">
+      <div class="rousai-position">
+        <img src="img/hero-bg.jpg" class="hero-bg">
+        <img src="img/hero-circle-link-5-bg.png" class="hero-circle">
+        <div class="rousai-left">
+          <div class="rousai-title">
+            <p>弁護士法人サリュの残業代請求</p>
+          </div>
+          <div class="rousai-text">
+            <p class="dot">・・・・　・・・</p>
+            <p class="rousai-main-text">
+              働いた分の残業代を、きちんと。
+            </p>
+            <p class="rousai-attention"><u>
+              残業代請求は2年の時効があります。<br>
+              あなたの残業時間をタダ働きで終わらせないように。
+            </u></p>
+            <p class="rousai-support">
+              一生懸命働くあなたを全力でサポートいたします。<br>
+              残業代請求・不当解雇・退職代行サービス・労働災害・ハラスメント等、<br>
+              あらゆる労働問題に対応いたします。<br>
+              会社に不満があったら、サリュの弁護士にご相談ください。
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="strong-point">
+      <div class="strong-left">
+        <p class="strong-title">弁護士法人サリュの強み</p>
+        <p class="strong-text">
+          残業代の回収に<span class="red">早く、</span>戦略的に<br>
+          実際に残業代を回収できなければ<br>
+          <span class="red">報酬は発生しません</span>
+        </p>
+      </div>
+      <div class="strong-right">
+        <img src="img/sec1-img1.png" class="sec1-img1">
+        <div class="strong-link">
+          <img src="img/arrow-round-down.png" class="arrow-down">
+          <p class="strong-cost">弁護士費用の詳細は<a href="#" class="strong-cost-link">こちら</a></p>
+        </div>
+      </div>
+    </div>
+
+    <!-- ここから中郡さん -->
+    	<div class="sample"><u><center>弁護士法人サリュの<br>
+	最新解決事例</center></u></div>
+	<div class="case1">営業社員に対する固定残業代の支払いの有効性、店長の管理監督者性が問題になった事例について
+		<div class="case1-1">訴訟により<font color=red><u><span>550</span>万円以上</u></font>の回収！</div><br>
+	</div><br><br>
+	<div class="case2">運送業のトラック運転手の労働時間及び労働者性が問題になった事例について
+		<div class="case2-1">訴訟により<font color=red><u><span>280</span>万円以上</u></font>の回収！</div><br>
+	</div><br><br>
+	<div class="case3">休憩時間と労働時間の区別及び始業前の労働時間性が問題になった事例について
+		<div class="case3-1">交渉により早期に<font color=red><u><span>85</span>万円</u></font>を回収！</div><br>
+		</div><br><br>
+	<div class="case4">年俸制における固定残業代の明確区分性が問題になった事例について
+		<div class="case4-1">早期に示談金<font color=red><u><span>195</span>万円</u></font>を回収！</div><br>
+	</div><br><br>
+	<div class="case5">現場作業員の固定残業代制の有効性、管理監督者性が問題となった事例について
+		<div class="case5-1">訴訟により<font color=red><u><span>350</span>万円以上</u></font>の回収！</div>	<br>
+	</div><br><br>
+	<div class="hiyou">
+		弁護士費用は？<br>
+		回収できなければ報酬なしの、完全成功報酬制！
+		<div class="hiyou1">弁護士費用 (税別)<br>
+		サリュの弁護士費用は完全成功報酬制<br>
+		実際に回収した残業代の中から報酬をいただきますので、回収できなければ報酬は発生しません。</div>
+		<div class="hiyou2">初期費用<br>
+		ご依頼時に費用がかかりませんので、<br>
+		安心してご相談ください。</div>
+		<div class="gray">※会社側の支払の資力がない場合または残業の証拠が全くない場合等事案によって別の料金体系とすることがあります。<br>
+		※労働審判については５％。裁判については、10％の追加報酬が発生します。<br>
+		※労働審判または裁判をする場合には、一回の裁判の期日ごとに2万円（税別）の事務手数料が発生します。<br>
+		※民事保全、強制執行については別途費用が発生します。<br>
+		※上記の他、別途実費が発生します。</div>
+	</div>
+	<div class="blue">他にも会社から嫌がらせを<br>
+	受けていませんか？<br>
+	残業代を請求したいと思ったきっかけを、<br>
+	サリュは応援します。<br>
+		<div class="blue1">不当解雇・退職勧奨<br>
+		身に覚えのない理由で解雇された、執拗に退職勧奨を受けたなど、退職に納得がいかない…残業代の請求に加えて、有効な解決策があります。</div>
+		<div class="blue2">退職代行サービス<br>
+		退職を言い出しにくい、退職届を受理してもらえない、離職票を交付してくれないなど、退職にまつわるトラブルを弁護士がまとめて解決します。</div>
+		<div class="blue3">労働災害・損害賠償請求<br>
+		業務中起きた事故・災害に関して、労災申請手続きのサポート、会社への損害賠償請求を弁護士に依頼したい方</div>
+		<div class="blue4">セクハラ・パワハラ<br>
+		上司からセクハラやパワハラを受け精神的苦痛を受けた方は会社に対して慰謝料を請求できる場合があります。</div>
+		<div class="blue5">待遇格差<br>
+		不合理な待遇格差がある場合、会社に対して手当・休暇相当額の損害賠償請求をできる場合があります。</div>
+	</div>
+	<div class="step">ご相談から<br>
+		解決までの流れ
+		<div class="step1">STEP1<br>
+		状況把握&ご予約<br>
+		まずは、メールや電話で事件の概要をお伝え下さい。相談の日時を決定致します。</div>
+		<div class="step2">STEP2<br>
+		ご相談<br>
+		弁護士が直接お客様と面談し、相談に応じます。この際、適切な解決方法を提案致します。</div>
+		<div class="step3">STEP3<br>
+		証拠収集&残業代計算<br>
+		ご契約後、証拠が会社側にある場合には開示するように請求するなど証拠収集をし、残業代を計算します。</div>
+		<div class="step4">STEP4<br>
+		交渉<br>
+		内容証明郵便により会社に残業代を請求し交渉を重ねます。交渉がうまくいかなくなった場合には、労働審判・裁判を提起します。</div>
+	</div>
+	<div class="tel">
+		まずは無料の法律相談から<br>
+		一人で抱え込まず、サリュの弁護士に<br>
+		お気軽にご相談ください。<br>
+		<div class="tel1"></div>
+		<div class="mail"></div>
+	</div>
+  </body>
+</html>

@@ -1,0 +1,31 @@
+@charset "UTF-8";
+#header, #footer{
+	background-color: gray;
+}
+
+label{
+	display: inline-block;
+	padding: 10px;
+	color: white;
+	padding: 10px;
+	font-size: 10px;
+}
+
+.date{
+	color: black;
+}
+
+#main{
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.table-box{
+	border: solid 2px #dcdcdc;
+	width: 150px;
+	height: 20px;
+}
+
+td{
+	text-align: center;
+}

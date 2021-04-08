@@ -1,0 +1,23 @@
+INDEX VERSION 1.131
+/Users/masuda/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/931501299.index
+/LP/src
+/Users/masuda/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3040355110.index
+/JspTest/src
+/Users/masuda/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1840544334.index
+/Directive/src
+/Users/masuda/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2516587259.index
+/Directive/src
+/Users/masuda/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1307653165.index
+/Form/src
+/Users/masuda/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3852893304.index
+/Check3/src
+/Users/masuda/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/2436797943.index
+/Check4/src
+/Users/masuda/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3594040508.index
+/FormData/src
+/Users/masuda/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/839946418.index
+/workShop_Nov/src
+/Users/masuda/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/904466341.index
+/LP/src
+/Users/masuda/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1050077892.index
+/implicit/src
