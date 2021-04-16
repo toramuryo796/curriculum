@@ -4,4 +4,4 @@ document.querySelector('#createBtn').addEventListener('click', function(){
 
   let ul = document.querySelector('ul');
   ul.appendChild(item);
-}, false)
+}, false) 
