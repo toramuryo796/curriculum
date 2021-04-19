@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      table{
+        font-size: 1.5em;
+        text-align: center;
+      }
+      th, td{
+        padding: 10px;
+      }
+      .lang{
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <form id="select_lang">
+      <select onchange="changeLang()" name="lang">
+        <option id="select">選択してください</option>
+        <option id="select_jpn">日本語</option>
+        <option id="select_en">英語</option>
+        <option id="select_all">全て表示</option>
+      </select>
+    </form>
+    <table>
+      <tr id="jp" class="lang">
+        <th>日本</th>
+        <td>こんにちは</td>
+        <td>ありがとう</td>
+        <td>さようなら</td>
+      </tr>
+      <tr id="en" class="lang">
+        <td>English</td>
+        <td>Hello</td>
+        <td>Thank you</td>
+        <td>Good Bye</td>
+      </tr>
+    </table>
+
+    <!-- JavaScript -->
+    <script>
+      function changeLang(){
+        let jp = document.getElementById('jp');
+        let en = document.getElementById('en')
+        let all = document.querySelectorAll('.lang');
+
+        // プルダウンで選択されたもののidを取得
+        let lang = document.getElementById('select_lang').lang.options[select_lang.lang.selectedIndex].id;
+        
+        if(lang === "select_jpn"){
+          en.style.display = "none";
+          jp.style.display = "block";
+        }else if(lang === "select_en"){
+          jp.style.display = "none";
+          en.style.display = "block";
+        }else if(lang === "select_all"){
+          jp.style.display = "block";
+          en.style.display = "block";
+        }
+      }
+    </script>
+  </body>
+</html>
