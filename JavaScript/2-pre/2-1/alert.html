@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./alert.css">
+    <title>アラート表示</title>
+  </head>
+  <body>
+    <span class="nav_toggle">
+      <i></i>
+      <i></i>
+      <i></i>
+    </span>
+    <button class="alert">クリック</button>
+    <script>
+      document.getElementsByTagName("button")[0].onclick = function(){
+        alert("こんな感じでボタン要素は使用される");
+      }
+    </script>
+  </body>
+</html>
